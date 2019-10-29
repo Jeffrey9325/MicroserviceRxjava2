@@ -1,0 +1,23 @@
+[23-10-2019 16:25:18.750][INFO ]: No active profile set, falling back to default profiles: default
+[23-10-2019 16:25:19.124][INFO ]: Bootstrapping Spring Data repositories in DEFAULT mode.
+[23-10-2019 16:25:19.179][INFO ]: Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+[23-10-2019 16:25:19.184][INFO ]: Bootstrapping Spring Data repositories in DEFAULT mode.
+[23-10-2019 16:25:19.187][INFO ]: Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+[23-10-2019 16:25:19.271][INFO ]: BeanFactory id=c08f0cd5-be65-353c-8b6a-91bcaf1b6ec1
+[23-10-2019 16:25:19.310][INFO ]: Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$26e991ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[23-10-2019 16:25:19.503][INFO ]: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[23-10-2019 16:25:20.085][INFO ]: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[23-10-2019 16:25:20.106][INFO ]: Opened connection [connectionId{localValue:2, serverValue:45}] to localhost:27017
+[23-10-2019 16:25:20.173][INFO ]: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4479200}
+[23-10-2019 16:25:20.206][WARN ]: Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+[23-10-2019 16:25:20.207][WARN ]: Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+[23-10-2019 16:25:20.283][WARN ]: Unable to start LiveReload server
+[23-10-2019 16:25:20.286][WARN ]: Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+[23-10-2019 16:25:20.286][WARN ]: Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+[23-10-2019 16:25:20.432][INFO ]: Opened connection [connectionId{localValue:1, serverValue:46}] to localhost:27017
+[23-10-2019 16:25:20.433][INFO ]: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1520700}
+[23-10-2019 16:25:21.848][INFO ]: Netty started on port(s): 8081
+[23-10-2019 16:25:22.914][INFO ]: Started MicroserviceRxjava2Application in 7.341 seconds (JVM running for 8.312)
+[23-10-2019 16:25:27.887][INFO ]: Opened connection [connectionId{localValue:3, serverValue:47}] to localhost:27017
+[23-10-2019 16:25:41.519][INFO ]: Application shutdown requested.
+[23-10-2019 16:25:41.525][INFO ]: Closed connection [connectionId{localValue:3, serverValue:47}] to localhost:27017 because the pool has been closed.
